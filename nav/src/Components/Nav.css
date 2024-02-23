@@ -1,0 +1,33 @@
+.navBody{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 32px;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul{display: flex; gap: 3rem; align-items: center;}
+
+ul li{
+    list-style: none;
+    /* display: flex; */
+    font-size: 16px;
+
+}
+
+.btn{
+    padding: 8px 12px;
+    background-color: rgb(40, 120, 173);
+    color: white;
+    border: none;
+
+}
+

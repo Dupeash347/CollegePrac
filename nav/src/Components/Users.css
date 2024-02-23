@@ -1,0 +1,17 @@
+.leftBar{
+    max-width: 300px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+.card{
+    border: 1px solid black;
+    padding: 12px 22px;
+}
+
+img{
+    max-width: 50px;
+}
