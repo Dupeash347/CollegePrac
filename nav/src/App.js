@@ -5,12 +5,11 @@ import Users from './Components/Users.js';
 import Blogs from './Components/Blogs.js';
 import { useEffect, useState } from 'react';
 import React from 'react';
-import { peoplee } from './exefiles/data.js';
 
 
 function App() {
-  const [setBlogs, updateBlogs] = useState(true);
-  const [userId, setUser] = useState(null);
+  const [setBlogs, updateBlogs] = useState(false);
+  const [userId, setUser] = useState(false);
 
   
 

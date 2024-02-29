@@ -11,7 +11,7 @@ const Users = ({ updateBlogs, setBlogs, setUser }) => {
       {people.map((person) => {
         const { id, name, images } = person;
         return (
-          <div className='card' key={id} onClick={() => { updateBlogs(!setBlogs); setUser(id); }} style={{ cursor: 'pointer' }}>
+          <div className='card' key={id} onClick={() => { updateBlogs(true); setUser(id); }} style={{ cursor: 'pointer' }}>
             <div className='g-one'>
               {images && images.length > 0 && ( // Check if images array exists and has elements
                 <img src={images[0]?.small.url} alt={name} /> // Corrected image source access
